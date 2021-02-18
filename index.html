@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../Images/money.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway Integration</title>
+</head>
+<body>
+    <div class="centered">
+        <h1 class="title" id="blink">WELCOME USER</h1>
+       
+        <script type="text/javascript">
+            var blink = document.getElementById('blink');
+            setInterval(function() {
+                blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+            }, 500);
+        </script>
+        
+        <img src="../Images/sparks.png" class="logo" alt="sparks foundation">
+      
+    </div>
+    
+    <form class="button"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GceNwz3ijuvU1C" async> </script> </form>
+    
+    <footer>Made by &#169 Vaishnavi Nigam</footer>
+</body>
+</html>
